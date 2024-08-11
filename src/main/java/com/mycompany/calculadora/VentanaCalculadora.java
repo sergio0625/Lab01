@@ -23,7 +23,7 @@ public class VentanaCalculadora extends JFrame{
         Ventana.setLayout(null);             
         Ventana.setVisible(true); 
         Ventana.setSize(300, NumButtons);
-        //Ventana.setLocationRelativeTo(null);      
+        Ventana.setLocationRelativeTo(null);      
         /*CIERRA LA VENTANA Y TERMINA LA EJECUCION DEL PROGRAMA*/
         Ventana.setDefaultCloseOperation(EXIT_ON_CLOSE);
     }   
